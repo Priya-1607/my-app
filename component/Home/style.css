@@ -1,0 +1,94 @@
+.back{
+    display: block;
+}
+.main{
+    display: flex;
+}
+.top{
+    margin-top: 85px;
+}
+.container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+  }
+  
+  .text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 2em;
+    transform: translate(-50%, -50%);
+    color:#0015ff;/* Adjust text color as needed */
+    /* font-size: 24px;  */
+    /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    
+  }
+  .text-first{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffaf00;/* Adjust text color as needed */
+    /* font-size: 24px;  */
+    /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+
+  }
+  .head{
+    font-size: 50px;
+  }
+  .sub{
+    font-size: 2em;
+  }
+  .para{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffaf00;/* Adjust text color as needed */
+    /* font-size: 24px;  */
+    /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+
+  }
+  .btn{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;/* Adjust text color as needed */
+    /* font-size: 24px;  */
+    /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+
+  @media (max-width: 768px){
+    .head{
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 10px 
+    }
+    .sub{
+        top: 30% !important;
+        font-size: 15px;
+    }
+    .para{
+        top:45%;
+        font-size: 8px;
+    }
+    .btn{
+        top:25%;
+        width: 20%;
+        height: 3%;
+        font-size: 10px;
+
+    }
+  }
