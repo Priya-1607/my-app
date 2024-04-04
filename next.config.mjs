@@ -1,7 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: '/pages',
-    output: 'export',
-}
+// next.config.mjs
+const nextConfig = {};
 
-module.exports = nextConfig
+export default nextConfig;
